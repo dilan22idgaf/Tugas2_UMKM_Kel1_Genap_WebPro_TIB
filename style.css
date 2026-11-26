@@ -1,0 +1,136 @@
+* { box-sizing: border-box; }
+body {
+    margin: 0;
+    padding: 25px 12px;
+    background: #fff4f7;
+    color: #55434a;
+    font-family: Arial, sans-serif;
+    line-height: 1.7;
+}
+table {
+    width: 82%;
+    max-width: 1050px;
+    margin: 20px auto;
+    background: #ffffff;
+    border: 1px solid #f4d5df;
+    border-radius: 18px;
+    box-shadow: 0 8px 25px rgba(130, 70, 90, 0.10);
+    overflow: hidden;
+}
+td { padding: 28px; }
+h1 {
+    color: #a84468;
+    letter-spacing: 1px;
+    margin-bottom: 12px;
+}
+h2 { color: #a8436a; margin-top: 25px; }
+h3 {
+    color: #9d4564;
+    background: #fff0f4;
+    padding: 12px 16px;
+    border-left: 5px solid #d77f9d;
+    border-radius: 9px;
+    text-align: left;
+}
+nav {
+    background: #fbe3eb;
+    padding: 13px 8px;
+    border-radius: 12px;
+    line-height: 2.2;
+}
+nav a {
+    color: #91405f;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 10px;
+    border-radius: 8px;
+}
+nav a:hover { background: #edc1d0; color: #64243d; }
+hr { border: 0; border-top: 1px solid #f0d5de; margin: 22px 0; }
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 14px;
+    box-shadow: 0 5px 15px rgba(90, 45, 60, 0.14);
+    object-fit: cover;
+}
+p { text-align: left; }
+a { color: #91405f; }
+a:hover { color: #7d294c; }
+.hero {
+    background: linear-gradient(135deg, #f9dce6, #fff0f4);
+    padding: 24px;
+    border-radius: 16px;
+    margin: 20px 0;
+}
+.hero p { text-align: center; }
+.tagline { color: #7f4b60; font-style: italic; }
+.info-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    justify-content: center;
+    margin: 22px 0;
+}
+.info-card {
+    flex: 1 1 180px;
+    background: #fff6f8;
+    border: 1px solid #f1d3dd;
+    border-radius: 13px;
+    padding: 16px;
+    text-align: center;
+}
+.info-card b { color: #a84468; display: block; font-size: 17px; }
+.product {
+    display: inline-block;
+    width: 44%;
+    min-width: 220px;
+    vertical-align: top;
+    background: #fff9fb;
+    border: 1px solid #f0d5de;
+    border-radius: 14px;
+    padding: 14px;
+    margin: 10px;
+}
+.product img { width: 250px; height: 220px; }
+.price {
+    display: inline-block;
+    background: #f8dce6;
+    color: #873451;
+    font-weight: bold;
+    padding: 6px 13px;
+    border-radius: 20px;
+}
+.step {
+    background: #fff7f9;
+    border-left: 5px solid #d77f9d;
+    padding: 12px 16px;
+    margin: 12px 0;
+    border-radius: 9px;
+    text-align: left;
+}
+footer {
+    color: #7a5666;
+    font-size: 13px;
+    margin-top: 25px;
+}
+@media (max-width: 700px) {
+    table { width: 98%; }
+    td { padding: 16px; }
+    .product { width: 95%; margin: 8px 0; }
+    nav a { display: inline-block; }
+}
+
+.salam { font-weight: bold; color: #a8436a; text-align: center; }
+.waktu { color: #7a5666; font-size: 14px; margin-top: 20px; }
+.status { font-weight: bold; }
+.status.buka { color: #2e7d4f; }
+.status.tutup { color: #b3402f; }
+.ringkasan { background: #f8dce6; display: inline-block; padding: 8px 18px; border-radius: 20px; font-weight: bold; color: #873451; }
+
+/* Khusus halaman Kontak */
+.team-grid { display:flex; flex-wrap:wrap; justify-content:center; gap:16px; margin:20px 0; }
+.team-card { width: min(180px, 45%); background:#fff6f8; border:1px solid #f1d3dd; border-radius:13px; padding:14px; text-align:center; }
+.photo-placeholder { width:125px; height:145px; margin:0 auto 12px; border:2px dashed #d77f9d; border-radius:10px; background:#fff; display:flex; align-items:center; justify-content:center; color:#ad7185; font-size:13px; }
+.team-card b { color:#a84468; display:block; }
+.photo-placeholder img { width: 100%; height: 100%; object-fit: cover; border-radius: 8px; }
